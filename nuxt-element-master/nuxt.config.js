@@ -12,10 +12,12 @@ const config = {
   aliIconFont: '',
   env: {
     mock: {
-      '/security': 'http://yapi.demo.qunar.com/mock/9638'
+      '/security': 'http://yapi.demo.qunar.com/mock/9638',
+      '/assembly': 'https://www.easy-mock.com/mock/5c7387173b7ff2219057c6b2/example'
     },
     dev: {
-      '/security': 'http://your.dev.server'
+      '/security': 'http://your.dev.server',
+      '/assembly': 'https://www.easy-mock.com/mock/5c7387173b7ff2219057c6b2/example'
     }
   }
 }

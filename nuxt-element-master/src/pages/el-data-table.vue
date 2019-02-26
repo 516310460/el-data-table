@@ -16,8 +16,8 @@
 export default {
   data() {
     return {
-     
-        url: 'https://www.easy-mock.com/mock/5c7387173b7ff2219057c6b2/example/assembly',
+        //url: 'https://www.easy-mock.com/mock/5c7387173b7ff2219057c6b2/example/assembly',//绝对路径
+        url: '/assembly',//相对路径build
         columns: [
           // type: 'selection' will show checkbox
           // see http://element.eleme.io/#/zh-CN/component/table#table-column-attributes
@@ -128,7 +128,7 @@ export default {
       }
     },
     mounted() {
-      console.log(process.env.TESTING_VAR) // 输出 just-fot-testing
+      console.log(process.env.API_SERVER) // 输出 just-fot-testing
     }
   }
 
